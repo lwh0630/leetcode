@@ -16,7 +16,7 @@ func Constructor() Trie {
 	return Trie{}
 }
 
-func (this *Trie) Insert(word string) {
+func (t *Trie) Insert(word string) {
 	node := t
 	for _, ch := range word {
 		ch -= 'a'
