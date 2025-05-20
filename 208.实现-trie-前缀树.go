@@ -5,6 +5,8 @@
  */
 
 // @lc code=start
+package lc
+
 type Trie struct {
 	children [26]*Trie
 	isEnd    bool
@@ -55,4 +57,3 @@ func (t *Trie) StartsWith(prefix string) bool {
  * param_3 := obj.StartsWith(prefix);
  */
 // @lc code=end
-
