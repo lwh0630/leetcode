@@ -12,7 +12,7 @@ type Trie struct {
 	isEnd    bool
 }
 
-func Constructor() Trie {
+func Constructor_208() Trie {
 	return Trie{}
 }
 
